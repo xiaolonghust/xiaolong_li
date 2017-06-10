@@ -25,7 +25,7 @@ categories: 数据库
 对比传统数据库仅仅记录了数据的当前值，时序数据库则记录了所有的历史数据。同时时序数据的查询也总是会带上时间作为过滤条件。
 
 时序数据示例
-![image](/upload/bsg_weather.png)
+![image](/images/tsdb/bsg_weather.png)
 
 
 ## 时序数据库的基本概念及特性

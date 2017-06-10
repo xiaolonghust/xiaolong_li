@@ -12,9 +12,7 @@ More info: [Read More](/Project-Euler/about)
 
 ---
 
-## 题目汇总
-
-本页面为所有题目汇总，点击相应题号进入该题，或直接访问:
+**本页面为所有题目汇总**，点击相应题号进入该题，或直接访问:
 
 ```
 http://xiaolong.li/Project-Euler/题号

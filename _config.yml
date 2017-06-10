@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://xiaolong.li
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,7 +63,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+plugin:
+- hexo-generator-feed
 theme: next
+
+feed:
+  type: atom       #feed 类型 (atom/rss2)
+  path: atom.xml   #rss 路径
+  limit: 20        #在 rss 中最多生成的文章数(0显示所有)
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -71,3 +78,11 @@ deploy:
   type: git
   repo: ssh://git@github.com/xiaolonghust/xiaolonghust.github.io
   branch: master
+
+# Algolia config
+algolia:
+  applicationID: '15JA050R1L'
+  apiKey: 'ff9dc354be91990420098318f9ab2839'
+  adminApiKey: '11aef17440a68f6937cb4339995478ef'
+  indexName: 'xiaolong-li'
+  chunkSize: 5000
