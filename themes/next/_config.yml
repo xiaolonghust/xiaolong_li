@@ -306,7 +306,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 8294053e6bf66d26def61b1899166d5e
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -437,8 +437,8 @@ busuanzi_count:
   site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-users"></i>
-  site_pv_footer: since 2017
+  site_pv_header: <div class="stats_pv">
+  site_pv_footer: </div>since 2017
   # custom pv span for one page only
   page_pv: true
   # page_pv_header: <i class="fa fa-file-o"></i>
@@ -539,7 +539,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
