@@ -86,3 +86,6 @@ algolia:
   adminApiKey: '11aef17440a68f6937cb4339995478ef'
   indexName: 'xiaolong-li'
   chunkSize: 5000
+
+sitemap:
+  path: sitemap.xml
